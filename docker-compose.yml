@@ -13,3 +13,7 @@ services:
     image: redis
 volumes:
   logvolume01: {}
+Footer
+© 2022 GitHub, Inc.
+Footer navigation
+Terms
