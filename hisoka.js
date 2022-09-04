@@ -137,16 +137,7 @@ module.exports = hisoka = async (hisoka, m, chatUpdate, store) => {
             timezone: "Asia/Jakarta"
         })
         
-	// auto set bio
-	if (db.data.settings[botNumber].autobio) {
-	    let setting = global.db.data.settings[botNumber]
-	    if (new Date() * 1 - setting.status > 1000) {
-		let uptime = await runtime(process.uptime())
-		await hisoka.updateProfileStatus(`${hisoka.user.name} | Runtime : ${runtime(uptime)}`)
-		setting.status = new Date() * 1
-	    }
-	}
-	    
+	
 	  // Anti Link
         if (db.data.chats[m.chat].antilink) {
         if (budy.match(`chat.whatsapp.com`)) {
@@ -1198,12 +1189,12 @@ break
                     let btn = [{
                                 urlButton: {
                                     displayText: 'Source Code',
-                                    url: 'https://github.com/DikaArdnt/Hisoka-Morou'
+                                    url: 'wa.me/628157664068'
                                 }
                             }, {
                                 callButton: {
                                     displayText: 'Number Phone Owner',
-                                    phoneNumber: '+62 882-9202-4190'
+                                    phoneNumber: '+62 815-7664-068'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -1237,12 +1228,12 @@ break
 		    let btn = [{
                                 urlButton: {
                                     displayText: 'Source Code',
-                                    url: 'https://github.com/DikaArdnt/Hisoka-Morou'
+                                    url: 'https://wa.me/628157664068'
                                 }
                             }, {
                                 callButton: {
                                     displayText: 'Number Phone Owner',
-                                    phoneNumber: '+62 882-9202-4190'
+                                    phoneNumber: '+62 815-7664-068'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3102,12 +3093,12 @@ let capt = `⭔ Title: ${judul}
                 let btn = [{
                                 urlButton: {
                                     displayText: 'Source Code',
-                                    url: 'https://github.com/DikaArdnt/Hisoka-Morou'
+                                    url: 'wa.me/628157664068'
                                 }
                             }, {
                                 callButton: {
                                     displayText: 'Number Phone Owner',
-                                    phoneNumber: '+62 882-9202-4190'
+                                    phoneNumber: '+62 815-7664-068'
                                 }
                             }, {
                                 quickReplyButton: {
